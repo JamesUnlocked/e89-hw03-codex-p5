@@ -1,0 +1,128 @@
+{
+  "test_accuracy": 0.8741999864578247,
+  "classes": [
+    "T-shirt/top",
+    "Trouser",
+    "Pullover",
+    "Dress",
+    "Coat",
+    "Sandal",
+    "Shirt",
+    "Sneaker",
+    "Bag",
+    "Ankle boot"
+  ],
+  "predictions": [
+    {
+      "validation_index": 0,
+      "predicted_label": 7,
+      "predicted_class": "Sneaker",
+      "true_label": 7,
+      "true_class": "Sneaker",
+      "probabilities": [
+        1.1433177860453725e-05,
+        5.087539102532901e-05,
+        2.095621084663435e-06,
+        2.0954881620127708e-05,
+        8.123814950522501e-06,
+        0.003907111007720232,
+        5.8811497183342e-06,
+        0.8844508528709412,
+        0.00017103341815527529,
+        0.11137156188488007
+      ],
+      "top_4": [
+        {
+          "class": "Sneaker",
+          "probability": 0.8844508528709412
+        },
+        {
+          "class": "Ankle boot",
+          "probability": 0.11137156188488007
+        },
+        {
+          "class": "Sandal",
+          "probability": 0.003907111007720232
+        },
+        {
+          "class": "Bag",
+          "probability": 0.00017103341815527529
+        }
+      ]
+    },
+    {
+      "validation_index": 1,
+      "predicted_label": 4,
+      "predicted_class": "Coat",
+      "true_label": 4,
+      "true_class": "Coat",
+      "probabilities": [
+        5.3594173543558554e-09,
+        1.41788758512007e-09,
+        0.002414730144664645,
+        3.751845500943318e-09,
+        0.9975616931915283,
+        4.6946563932344365e-15,
+        2.354248681513127e-05,
+        4.8976580034392966e-14,
+        5.975943295766228e-09,
+        9.081357085598263e-13
+      ],
+      "top_4": [
+        {
+          "class": "Coat",
+          "probability": 0.9975616931915283
+        },
+        {
+          "class": "Pullover",
+          "probability": 0.002414730144664645
+        },
+        {
+          "class": "Shirt",
+          "probability": 2.354248681513127e-05
+        },
+        {
+          "class": "Bag",
+          "probability": 5.975943295766228e-09
+        }
+      ]
+    },
+    {
+      "validation_index": 2,
+      "predicted_label": 2,
+      "predicted_class": "Pullover",
+      "true_label": 2,
+      "true_class": "Pullover",
+      "probabilities": [
+        0.00017253529222216457,
+        5.597873496299144e-06,
+        0.6716991662979126,
+        0.0001016369424178265,
+        0.20976831018924713,
+        3.5415703791841224e-07,
+        0.11819881200790405,
+        2.8096798132537515e-07,
+        5.2635750762419775e-05,
+        6.136752972452086e-07
+      ],
+      "top_4": [
+        {
+          "class": "Pullover",
+          "probability": 0.6716991662979126
+        },
+        {
+          "class": "Coat",
+          "probability": 0.20976831018924713
+        },
+        {
+          "class": "Shirt",
+          "probability": 0.11819881200790405
+        },
+        {
+          "class": "T-shirt/top",
+          "probability": 0.00017253529222216457
+        }
+      ]
+    }
+  ]
+}
